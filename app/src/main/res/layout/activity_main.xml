@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_margin="12dp"
+
+    android:layout_width="match_parent"
+    android:background="@color/vardisferi"
+
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="120dp"
+        android:fontFamily="cursive"
+        android:text="Welcome!"
+        android:textSize="100px"
+
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.124" />
+
+
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="409dp"
+        android:layout_height="wrap_content"
+        tools:layout_editor_absoluteX="1dp"
+        tools:layout_editor_absoluteY="191dp"/>
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="casual"
+        android:text="Log in"
+        android:layout_marginTop="550px"
+        android:layout_marginLeft="130dp"
+        android:textSize="100px"
+        tools:layout_editor_absoluteX="152dp"
+        tools:layout_editor_absoluteY="191dp" />
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="409dp"
+        android:layout_height="wrap_content"
+        tools:layout_editor_absoluteX="1dp"
+        tools:layout_editor_absoluteY="281dp">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/teqstigadasacemi"
+            android:layout_width="800px"
+            android:layout_height="170px"
+            android:layout_marginTop="800px"
+            android:hint="Enter your Name"
+            android:layout_marginLeft="110px"
+            android:textSize="70px"
+            android:fontFamily="cursive"/>
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="409dp"
+        android:layout_height="wrap_content"
+        tools:layout_editor_absoluteX="1dp"
+        tools:layout_editor_absoluteY="480dp">
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="409dp"
+        android:layout_height="wrap_content"
+        tools:layout_editor_absoluteX="1dp"
+        tools:layout_editor_absoluteY="422dp">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:layout_width="800px"
+            android:layout_height="170px"
+            android:layout_marginLeft="110px"
+            android:layout_marginTop="1000px"
+            android:fontFamily="cursive"
+            android:hint="Enter your E-mail"
+            android:textSize="70px"
+
+            />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <Button
+        android:id="@+id/buttonofsignin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="370px"
+        android:layout_marginTop="1400px"
+        android:backgroundTint="@color/ghialurji"
+        android:fontFamily="casual"
+        android:text="sign in"
+        android:textColor="@color/black"
+        android:textSize="50px"
+        tools:layout_editor_absoluteX="160dp"
+        tools:layout_editor_absoluteY="581dp" />
+
+    <Button
+        android:id="@+id/buttonofnext"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="750px"
+        android:layout_marginTop="5px"
+        android:backgroundTint="@color/ghialurji"
+        android:fontFamily="casual"
+        android:text="Next"
+        android:textSize="50px"
+        android:textColor="@color/black"
+        tools:layout_editor_absoluteX="309dp"
+        tools:layout_editor_absoluteY="6dp" />
+
+</RelativeLayout>

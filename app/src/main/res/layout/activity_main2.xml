@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@color/vardisferi"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity2">
+
+    <Button
+        android:id="@+id/backbutton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/ghialurji"
+        android:fontFamily="cursive"
+        android:text="Back"
+        android:layout_marginLeft="10px"
+        android:textColor="@color/black"
+        android:textSize="60px"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="16dp" />
+
+    <TextView
+        android:id="@+id/gamotanisadgili"
+        android:layout_width="700px"
+        android:layout_height="120px"
+        android:layout_marginLeft="200px"
+        android:layout_marginTop="1000px"
+        android:background="@color/ghialurji"
+        android:fontFamily="cursive"
+        android:text=""
+        android:textSize="100px"
+        android:gravity="center"
+        android:textColor="@color/black"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="98dp"
+        tools:layout_editor_absoluteY="386dp" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="400px"
+        android:layout_height="400px"
+        android:layout_marginLeft="350px"
+        android:layout_marginTop="200px"
+        app:srcCompat="@android:drawable/ic_dialog_email"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="131dp"
+        tools:layout_editor_absoluteY="113dp" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="400px"
+        android:layout_marginTop="700px"
+        android:fontFamily="cursive"
+        android:text="Hello"
+        android:textSize="150px" />
+
+</RelativeLayout>
